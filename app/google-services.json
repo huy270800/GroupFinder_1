@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881142301996",
+    "project_id": "groupfinder-1-4c5ea",
+    "storage_bucket": "groupfinder-1-4c5ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881142301996:android:44253050945da2fd051889",
+        "android_client_info": {
+          "package_name": "square.ball.groupfinder_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881142301996-kakl32n335a4a98ju7lb5tn177ibru4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl7qAYXxSVHEjnV8c8C2FdsuLe2wm8KmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881142301996-kakl32n335a4a98ju7lb5tn177ibru4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
