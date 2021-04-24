@@ -1,15 +1,12 @@
-package square.ball.groupfinder_1
+package square.ball.groupfinder_1.activities
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.ktx.Firebase
+import square.ball.groupfinder_1.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var databaseReference: DatabaseReference
