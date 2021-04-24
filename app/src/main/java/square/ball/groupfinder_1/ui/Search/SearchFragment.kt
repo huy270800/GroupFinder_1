@@ -25,7 +25,7 @@ class SearchFragment : Fragment() {
         val search = root.findViewById<SearchView>(R.id.searchView)
         val listView = root.findViewById<ListView>(R.id.listView)
 
-        val names = arrayOf("Test1", "Test2", "Test3")
+        val names = arrayOf("Test0","Test1", "Test2", "Test3")
 
         val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, names)
 

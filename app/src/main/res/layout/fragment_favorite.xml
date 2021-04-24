@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context=".FavoriteActivity">
+    tools:context=".ui.Favorite.FavoriteFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,6 +20,7 @@
             android:padding="5dp"
             android:layout_marginStart="10dp"
             android:id="@+id/imgBack"/>
+
 
         <TextView
             android:layout_width="0dp"
@@ -39,6 +40,7 @@
             android:layout_marginStart="10dp"
             android:id="@+id/imgProfile"/>
 
+
         <TextView
             android:id="@+id/text_search"
             android:layout_width="wrap_content"
@@ -46,12 +48,15 @@
 
             />
 
+
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/userRecyclerView"/>
+
+
 
 
 </LinearLayout>
