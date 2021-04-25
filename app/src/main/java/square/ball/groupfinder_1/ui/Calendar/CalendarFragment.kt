@@ -10,12 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
-import androidx.lifecycle.Observer
 import square.ball.group_finder.ui.calendar.CalendarViewModel
 import square.ball.groupfinder_1.R
-import square.ball.groupfinder_1.ui.Favorite.FavoriteViewModel
 
 class CalendarFragment : Fragment() {
 
