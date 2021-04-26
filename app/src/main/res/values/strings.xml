@@ -3,7 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
     <string name="title_calendar">Calendar</string>
-    <string name="title_favorite">Favorite</string>
+    <string name="title_mygroups">My Groups</string>
     <string name="title_user">User</string>
     <string name="title_activity_calendar">CalendarActivity</string>
     <!--

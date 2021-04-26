@@ -7,10 +7,9 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="square.ball.groupfinder_1.ui.Home.HomeFragment"
+        android:name="square.ball.groupfinder_1.ui.Home.HomeGroupFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-    />
+        tools:layout="@layout/fragment_home_group" />
 
     <fragment
         android:id="@+id/navigation_search"
@@ -24,10 +23,10 @@
         tools:layout="@layout/fragment_calendar" />
 
     <fragment
-        android:id="@+id/navigation_favorite"
-        android:name="square.ball.groupfinder_1.ui.Favorite.FavoriteFragment"
-        android:label="@string/title_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        android:id="@+id/navigation_mygroups"
+        android:name="square.ball.groupfinder_1.ui.MyGroups.MyGroupsFragment"
+        android:label="@string/title_mygroups"
+        tools:layout="@layout/fragment_my_groups" />
     <fragment
 
         android:id="@+id/navigation_user"
