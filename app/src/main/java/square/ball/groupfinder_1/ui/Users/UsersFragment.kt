@@ -44,6 +44,14 @@ class UsersFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         loadProfile()
 
+        currentUser?.let { user ->
+            if (user.isEmailVerified){
+                text_not_verified.visibility = View.INVISIBLE
+            } else {
+                text_not_verified.visibility = View.VISIBLE
+            }
+        }
+
         text_not_verified.setOnClickListener{
             currentUser?.sendEmailVerification()?.addOnCompleteListener {
                 if (it.isSuccessful) {
